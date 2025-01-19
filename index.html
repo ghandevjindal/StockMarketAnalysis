@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Stock Market Analysis</h1>
+    </header>
+
+    <main>
+        <!-- Graph Section -->
+        <section id="graph-section">
+            <h2>Stock Trends</h2>
+            <canvas id="stockChart" width="400" height="200"></canvas>
+            <div id="chart-btn">
+                <button data-time="1mo">1 Month</button>
+                <button data-time="3mo">3 Months</button>
+                <button data-time="1y">1 Year</button>
+                <button data-time="5y">5 Years</button>
+            </div>
+        </section>
+
+        <!-- Stocks List Section -->
+        <section id="stocks-list">
+            <h2>Stocks List</h2>
+            <!-- Placeholder for dynamic stock items -->
+        </section>
+    </main>
+
+    <!-- Stock Details Section -->
+    <section id="details-section">
+        <h2>Stock Details</h2>
+        <p>Select a stock to see its details here.</p>
+    </section>
+
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
